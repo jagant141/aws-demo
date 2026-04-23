@@ -21,5 +21,5 @@ cidr_block = "10.0.1.0/24"
 }
 resource "aws_instance" "ec2" {
 ami = "ami-070e5bd3ff10324f8"
-instance_type = "t3.micro"
+instance_type = "t3.small"
 }
