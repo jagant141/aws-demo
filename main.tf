@@ -10,7 +10,7 @@ provider "aws" {
 region = "ap-south-2"
 }
 resource "aws_s3_bucket" "demo_bucket" {
-bucket = "jagan-bukt"
+bucket = "jagan-bukt-65476"
 }
 resource "aws_vpc" "demo_vpc" {
 cidr_block = "10.0.0.0/16"
